@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet"> 
+    <title> 💻 Emimint - Portofolio 🌱</title>
+</head>
+<body>
+    <h1 style="text-align:center;">
+        Some of my current projects || Quelques uns de mes projets en cours
+    </h1>
+    <h2 style="text-align:center;">
+        Please come back often for update 🌟! || Revenez régulièrement pour des mises à jour 🎆 !
+    </h2>
+    <div class="main-container">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="img/conquere.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                    <h1>Conquer Clone</h1>
+                    <p>HTML, CSS, Javascript</p>
+                    <p>
+                        <a
+                            href="https://emimint.github.io/conquer_clone_solo_project/"
+                        >
+                            Deployment
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div> 
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="img/drumkit.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                    <h1>Drumkit</h1>
+                    <p>HTML, CSS, Javascript</p>
+                    <p>
+                        <a
+                            href="https://emimint.github.io/DrumKit/"
+                        >
+                            Deployment
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div> 
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="img/exp_app.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                    <h1>Expense Track App</h1>
+                    <p>React</p>
+                    <p>
+                        <a
+                            href="https://yearly-expense-manager.netlify.app/"
+                        >
+                            Deployment
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="img/gestion_locations.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                    <h1>Gestions de locations</h1>
+                    <p>Java, JavaFX</p>
+                    <p>
+                        <a
+                            href="https://github.com/Emimint/Env_Graph_Session_Project"
+                        >
+                            README( Repo )
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="img/investor_app.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                    <h1>Investor App</h1>
+                    <p>React</p>
+                    <p>
+                        <a
+                            href="https://emimint-investor.netlify.app/"
+                        >
+                            README( Repo )
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+         <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="img/projet_python.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                    <h1>Investor App</h1>
+                    <p>React</p>
+                    <p>
+                        <a
+                            href="https://github.com/Emimint/Dynamic_PZ_growth_Scripts_Test_Hut"
+                        >
+                            Repo
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+
+body {
+    font-family: Mooli;
+    background-color: #cccccc;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px; 
+  margin: 15px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: rgb(55, 101, 147);
+  color: white;
+  transform: rotateY(180deg);
+} 
+    </style>
+</body>
+</html>
